@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# 屏蔽以scripts开头的文件,scripts 为草稿，无意义
+scripts.*
+script.*
+../scripts/
+
